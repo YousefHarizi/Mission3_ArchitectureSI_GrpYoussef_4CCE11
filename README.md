@@ -56,59 +56,6 @@ Le rapport officiel complet est consultable directement dans votre navigateur vi
 
 <br/>
 
-<details>
-<summary><b>🔍 Cliquez ici pour feuilleter les pages clés du rapport directement dans ce README</b></summary>
-
-<br/>
-
-### Page 2 — Sommaire & Synthèse
-<div align="center">
-  <img src="docs/rapport_page_2.png" alt="Sommaire" width="85%" style="border: 1px solid #ddd; border-radius: 6px; box-shadow: 0 3px 10px rgba(0,0,0,0.1);" />
-</div>
-
-<br/>
-
-### Page 3 — Problème & Principe LSP
-<div align="center">
-  <img src="docs/rapport_page_3.png" alt="Principe LSP" width="85%" style="border: 1px solid #ddd; border-radius: 6px; box-shadow: 0 3px 10px rgba(0,0,0,0.1);" />
-</div>
-
-<br/>
-
-### Page 4 — Solution Clean Code (Avant vs Après)
-<div align="center">
-  <img src="docs/rapport_page_4.png" alt="Solution Clean Code" width="85%" style="border: 1px solid #ddd; border-radius: 6px; box-shadow: 0 3px 10px rgba(0,0,0,0.1);" />
-</div>
-
-</details>
-
----
-
-## 📋 Informations du Projet
-
-| Élément | Description |
-| :--- | :--- |
-| **Auteur principal** | **Youssef El Harizi** |
-| **Groupe / Classe** | 4CCE11 — ESPRIT |
-| **Mission** | Mission 3 : Refactorisation Clean Code du Remboursement (LSP + ISP) |
-| **Stack Technique** | Java 17 · Spring Boot 4.0.8 · Spring Data JPA · MySQL · OpenAPI Swagger · Postman |
-| **Documentation Swagger** | [http://localhost:8082/api/swagger-ui.html](http://localhost:8082/api/swagger-ui.html) |
-
----
-
-## ⚡ Démarrage Rapide
-
-```bash
-# 1. Cloner le dépôt
-git clone https://github.com/YousefHarizi/Mission3_ArchitectureSI_GrpYoussef_4CCE11.git
-
-# 2. Exécuter les tests unitaires
-./mvnw clean test
-
-# 3. Lancer l'application Spring Boot
-./mvnw spring-boot:run
-```
-
 ---
 
 <div align="center">

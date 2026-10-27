@@ -15,7 +15,7 @@
 
 <br/>
 
-[📹 Visionner la Démo Postman](#-vidéo-de-démonstration-postman) • [📄 Ouvrir le Rapport PDF](#-rapport-officiel-de-mission-3) • [⚡ Démarrage Rapide](#-démarrage-rapide)
+[📹 Voir la Vidéo Postman](#-vidéo-de-démonstration-postman) • [📄 Consulter le Rapport PDF](#-rapport-officiel-de-mission-3) • [⚡ Démarrage Rapide](#-démarrage-rapide)
 
 </div>
 
@@ -23,17 +23,16 @@
 
 ## 📹 Vidéo de Démonstration Postman
 
-Regardez ci-dessous la vidéo de démonstration complète de nos tests d'API Postman :
+La démonstration ci-dessous présente l'exécution en direct des tests de remboursement (Carte, Virement, et gestion métier des Espèces) directement depuis Postman :
 
 <div align="center">
 
-<video src="postman.mp4" controls="controls" width="100%" style="max-height: 520px; border-radius: 10px; box-shadow: 0 6px 18px rgba(0,0,0,0.2);">
-  Votre navigateur ne permet pas la lecture vidéo directe.
-</video>
+<!-- Lecteur animé direct dans le README (aucun téléchargement nécessaire) -->
+<img src="docs/postman_demo.gif" alt="Démonstration Vidéo Postman" width="100%" style="border-radius: 10px; box-shadow: 0 6px 20px rgba(0,0,0,0.25);" />
 
-<br/>
+<br/><br/>
 
-👉 **[▶️ Cliquez ici pour ouvrir / télécharger la vidéo (postman.mp4)](./postman.mp4)**
+[![Visionner en plein écran sur GitHub](https://img.shields.io/badge/▶️%20Visionner%20la%20vidéo%20HD%20sur%20GitHub-postman.mp4-red?style=for-the-badge&logo=youtube)](https://github.com/YousefHarizi/Mission3_ArchitectureSI_GrpYoussef_4CCE11/blob/main/postman.mp4)
 
 </div>
 
@@ -41,21 +40,47 @@ Regardez ci-dessous la vidéo de démonstration complète de nos tests d'API Pos
 
 ## 📄 Rapport Officiel de Mission 3
 
-Le livrable officiel complet au format PDF détaille la conception, les diagrammes UML & séquence, le code et l'analyse critique des prompts :
+Le rapport officiel complet est consultable directement dans votre navigateur via le lecteur GitHub :
 
 <div align="center">
 
-<a href="Rapport_GrpYoussef.pdf" target="_blank" title="Cliquez pour ouvrir le rapport officiel PDF">
-  <img src="docs/rapport_preview.png" alt="Aperçu du Rapport Officiel - Mission 3" width="70%" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.15);" />
-</a>
+[![Ouvrir le lecteur PDF intégré GitHub](https://img.shields.io/badge/📖%20Ouvrir%20le%20Rapport%20dans%20le%20lecteur%20intégré%20GitHub-Rapport__GrpYoussef.pdf-2ea44f?style=for-the-badge&logo=github)](https://github.com/YousefHarizi/Mission3_ArchitectureSI_GrpYoussef_4CCE11/blob/main/Rapport_GrpYoussef.pdf)
 
 <br/><br/>
 
-[![Ouvrir le Rapport PDF](https://img.shields.io/badge/📄%20Ouvrir%20le%20Rapport-Rapport__GrpYoussef.pdf-red?style=for-the-badge&logo=adobeacrobatreader)](Rapport_GrpYoussef.pdf)
-&nbsp;&nbsp;
-[![Télécharger le PDF](https://img.shields.io/badge/⬇️%20Télécharger%20le%20PDF-Direct%20Download-blue?style=for-the-badge)](Rapport_GrpYoussef.pdf)
+<a href="https://github.com/YousefHarizi/Mission3_ArchitectureSI_GrpYoussef_4CCE11/blob/main/Rapport_GrpYoussef.pdf" title="Cliquer pour ouvrir le rapport dans GitHub">
+  <img src="docs/rapport_page_1.png" alt="Aperçu Couverture Rapport" width="70%" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.15);" />
+</a>
 
 </div>
+
+<br/>
+
+<details>
+<summary><b>🔍 Cliquez ici pour feuilleter les pages clés du rapport directement dans ce README</b></summary>
+
+<br/>
+
+### Page 2 — Sommaire & Synthèse
+<div align="center">
+  <img src="docs/rapport_page_2.png" alt="Sommaire" width="85%" style="border: 1px solid #ddd; border-radius: 6px; box-shadow: 0 3px 10px rgba(0,0,0,0.1);" />
+</div>
+
+<br/>
+
+### Page 3 — Problème & Principe LSP
+<div align="center">
+  <img src="docs/rapport_page_3.png" alt="Principe LSP" width="85%" style="border: 1px solid #ddd; border-radius: 6px; box-shadow: 0 3px 10px rgba(0,0,0,0.1);" />
+</div>
+
+<br/>
+
+### Page 4 — Solution Clean Code (Avant vs Après)
+<div align="center">
+  <img src="docs/rapport_page_4.png" alt="Solution Clean Code" width="85%" style="border: 1px solid #ddd; border-radius: 6px; box-shadow: 0 3px 10px rgba(0,0,0,0.1);" />
+</div>
+
+</details>
 
 ---
 
@@ -66,7 +91,7 @@ Le livrable officiel complet au format PDF détaille la conception, les diagramm
 | **Auteur principal** | **Youssef El Harizi** |
 | **Groupe / Classe** | 4CCE11 — ESPRIT |
 | **Mission** | Mission 3 : Refactorisation Clean Code du Remboursement (LSP + ISP) |
-| **Stack Technique** | Java 17 · Spring Boot · Spring Data JPA · MySQL · OpenAPI (Swagger UI) · Postman |
+| **Stack Technique** | Java 17 · Spring Boot 4.0.8 · Spring Data JPA · MySQL · OpenAPI Swagger · Postman |
 | **Documentation Swagger** | [http://localhost:8082/api/swagger-ui.html](http://localhost:8082/api/swagger-ui.html) |
 
 ---
@@ -77,7 +102,7 @@ Le livrable officiel complet au format PDF détaille la conception, les diagramm
 # 1. Cloner le dépôt
 git clone https://github.com/YousefHarizi/Mission3_ArchitectureSI_GrpYoussef_4CCE11.git
 
-# 2. Exécuter les tests unitaires (LSP & Application)
+# 2. Exécuter les tests unitaires
 ./mvnw clean test
 
 # 3. Lancer l'application Spring Boot

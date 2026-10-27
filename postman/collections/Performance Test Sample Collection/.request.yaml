@@ -1,0 +1,44 @@
+$kind: http-request
+name: ""
+url: http://localhost:8082/api/contrats/{{id}}
+method: GET
+body:
+  type: json
+  content: "{\r
+
+    \    \"immatriculation\": \"123 jmt 4634\" ,\r
+
+    \    \"marque\": \"BMW\",\r
+
+    \    \"modele\" : \"X7\" ,\r
+
+    \    \"statut\" : \"DISPONIBLE\",\r
+
+    \    \"categorieVehicule\" : \"SUV\" ,\r
+
+    \    \"tarifJournal\" : \"1000000\" \r
+
+    \r
+
+    }"
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test("Status code is 200", function () {
+          pm.response.to.have.status(200);
+      });
+
+      pm.test("Response is valid JSON", function () {
+          pm.response.to.be.json;
+      });
+
+      pm.test("Response contains expected vehicle details", function () {
+          const jsonData = pm.response.json();
+          pm.expect(jsonData).to.have.property('idVehicule');
+          pm.expect(jsonData.immatriculation).to.eql("123 jmt 4634");
+          pm.expect(jsonData.marque).to.eql("BMW");
+          pm.expect(jsonData.modele).to.eql("X7");
+          pm.expect(jsonData.statut).to.eql("DISPONIBLE");
+      });
+    language: text/javascript
+order: 1000
